@@ -1,0 +1,44 @@
+.pheading {
+    color: blue;
+}
+
+.info p{
+    display: inline-block;
+}
+
+.contact {
+    text-align: right;
+    width: 50%;
+    font-weight: bold;
+}
+
+.contactphone {
+    text-align: right;
+    width: 85%;
+    font-weight: bold;
+}
+
+.ppheading {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+    margin: auto;
+    
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+/* .prohandle { */
+    /* line-height: 8px;
+    margin-bottom: 8px; */
+    /* text-align: justify; */
+    /* text-justify: inter-word;
+    text-align: inherit;
+} */
+
+p.prohandle {
+    text-align-last: center;
+    text-justify:inter-word;
+}

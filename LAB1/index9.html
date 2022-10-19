@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style9.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+
+    <form action="/action_page.php">
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" name="first-name" required> </label>
+        <label for="classes">Input your class (years): <input id="classes" type="number" name="age" min="22" max="18"> </label>
+        <label for="referrer">Qualification
+            <select name="referrer" id="referrer">
+                <option value="">(select one)</option>
+                <option value="1">Very Good</option>
+                <option value="2">Good</option>
+                <option value="3">Average</option>
+                <option value="4">Fail</option>
+            </select>
+        </label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required> </label>
+        <label for="address">Address: 
+            <textarea name="address" id="address" cols="30" rows="3" placeholder="Phu Nhuan District"></textarea>
+        </label>
+        <label for="picture">Upload a picture: <input id="picture" name="file" type="file"></label>
+    </form>
+    <input type="submit" value="Register">
+    <input type="submit" value="Clear">
+</body>
+</html>

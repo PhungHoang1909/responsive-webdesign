@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+    table, tr, th, td{
+        border: 1px solid black;
+        margin-left: 10%;
+    }
+    .lunch{
+        text-align: justify;
+    }
+    </style>
+    <header>
+        <h1>Class time table</h1>
+    </header>
+
+    <table style="width: 75%">
+        <tr>
+            <th>Period</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th rowspan="2">12.30PM-
+                1.30PM</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+        </tr>
+        <tr>
+            <th>Day</th>
+            <th>8.30AM-
+                9.30AM</th>
+            <th>9.30AM-
+                10.30AM</th>
+            <th>10.40AM-
+                11.30AM</th>
+            <th>11.30AM-
+                12.30AM</th>
+            <th>1.30PM-
+                2.30PM</th>
+            <th>2.30PM-
+                3.30PM</th>
+            <th>3.30PM-
+                4.30PM</th>
+        </tr>
+        <tr>
+            <th>MON</th>
+            <td>AJWT</td>
+            <td>ACN</td>
+            <td>DAA</td>
+            <td>UP</td>
+            <td rowspan="4" class="lunch">L <br> U <br> N <br> C <br> H</td>
+            <td>IPR2</td>
+            <td>CA</td>
+            <td>MS</td>
+        </tr>
+        <tr>
+            <th>TUE</th>
+            <td>ACN</td>
+            <td>MS</td>
+            <td>UP</td>
+            <td>DAA</td>
+            <td colspan="3">AJWT LAB</td>
+        </tr>
+        <tr>
+            <th>
+                WED
+            </th>
+            <td>CA</td>
+            <td>MS</td>
+            <td>DAA</td>
+            <td>ACN</td>
+            <td>IPR2</td>
+            <td>AJWT</td>
+            <td>UP</td>
+        </tr>
+        <tr>
+            <th>THU</th>
+            <td>UP</td>
+            <td>DAA</td>
+            <td>AJWT</td>
+            <td>CA</td>
+            <td colspan="3">CN&UNIX LAB</td>
+        </tr>
+    </table>
+</body>
+</html>
