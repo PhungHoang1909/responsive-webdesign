@@ -1,0 +1,24 @@
+body {
+    background-color:  #EEEEEE;
+}
+button {
+  background: #428BCA;
+  color: #fff;
+  font-family: Sans-serif;
+  font-size: 15px;
+  height: 60px;
+  width: 250px;
+  line-height: 60px;
+  margin: 25px 25px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s ease 0s;
+}
+.textboxes {
+  Height: 30px;
+  width: 300px;
+  background-color: #428BCA;
+  font-family: Sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}

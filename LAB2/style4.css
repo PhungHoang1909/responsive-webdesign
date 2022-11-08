@@ -1,0 +1,113 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#demo_panel {
+    background: #e9ecef;
+    padding: 25px;
+    text-align: center;
+  }
+  #demo_panel .headline {
+    font-weight: bold;
+  }
+  #demo_panel .description {
+    color: black;
+  }
+  #demo_panel .btn {
+    border: 2px black dashed;
+  }
+
+.display-4 {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+.btn{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+a:visited{
+    color: white;
+}
+
+html {
+    font-size: 14px;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 100%;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+.display-4_price{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lead_price{
+    margin: 0px 300px 0px 300px;
+    text-align-last: center;
+}
+
+.container, .card-deck{
+    display: flex;
+    background-color: bisque;
+    text-align: center;
+    padding: auto;
+    margin: auto
+}
+
+.card-header{
+    background-color: #e9ecef;
+    margin: 25px;   
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.text-muted{
+    color: gray;
+    font-size: 25px;
+}
+
+.list-unstyled{
+    list-style: none;
+}
+
+/* 
+.container, .card-deck{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+} */
+
+/* block 3 */

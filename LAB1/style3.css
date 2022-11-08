@@ -22,8 +22,16 @@
     
 }
 
-table, th, td, tr {
+.tb {
     border:1px solid black;
+}
+
+.none{
+    text-align: left;
+}
+
+.java-right{
+    text-align: right;
 }
 
 /* .prohandle { */
@@ -33,6 +41,14 @@ table, th, td, tr {
     /* text-justify: inter-word;
     text-align: inherit;
 } */
+
+.middle {
+    text-align: justify;
+}
+
+.right{
+    text-align: right;
+}
 
 p.prohandle {
     text-align-last: center;

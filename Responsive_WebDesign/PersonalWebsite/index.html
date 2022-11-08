@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Hoang Biography</title>
+</head>
+
+<body>
+  <!-- PAGE ABOUT -->
+  <header id="about">
+    <nav id="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+            <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#home" class="active">...</a>
+    <div id="myLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+  
+      </ul>
+    </nav>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <h1 id="title">Hi, I am Phung Hoang</h1>
+        <p class="lead"><em>a Computer Science Student</em></p>
+      </div>
+
+      <div class="grid-item">
+        <img src="img2.jpg" alt="img2" id="img2">
+      </div>
+
+    </div>
+  
+    <!-- <div id="welcome-section" class="container">
+      <h1 id="title">Hi, I am Phung Hoang</h1>
+      <p class="lead"><em>a Computer Science Student</em></p>
+      <img src="img2.jpg" alt="img2" id="img2">
+    </div> -->
+  </header>
+
+  <!-- PROJECT SECTION -->
+  <section id="projects">
+    <div class="project-tile">
+      <h1 id="caption">"These are some of my projects"</h1><br>
+      <div id="bottom-line"></div>
+      <div class="projects">
+        <div class="box">
+          <a target="_blank" href="indexa.html">
+            <img src="img/project-1.png" alt="project-img" class="project-img">
+            <p>
+              <span class="code">&lt;</span>
+              Study Ideas
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a target="_blank" href="index2.html" alt="project-img" class="project-img">
+            <img src="img/project-2.png" alt="project-img" class="project-img">
+            <p>
+              <span class="code">&lt;</span>
+              JS Documentation
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a target="_blank" href="index3.html">
+            <img src="img/project-3.png" alt="project-img" class="project-img">
+            <p>
+              <span class="code">&lt;</span>
+              Magazine
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <div target="_blank" class="box">
+          <a href="index4.html">
+            <img src="img/project-4.png" alt="project-img" class="project-img">
+            <p>
+              <span class="code">&lt;</span>
+              Waving Penguin
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <div target="_blank" class="box">
+          <a href="index5.html">
+            <img src="img/project-5.png" alt="project-img" class="project-img">
+            <p>
+              <span class="code">&lt;</span>
+              Simple Landing Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+
+        <div target="_blank" class="box">
+          <a href="index6.html">
+            <img src="img/project-6.png" alt="project-img" class="project-img">
+            <p>
+              <span class="code">&lt;</span>
+              City Skyline
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <a href="https://github.com/PhungHoang1909" class="btn">Show More</a>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="container">
+      <h1>Let's work together...</h1>
+      <p>Need help with your project? Just ask!</p>
+      <div class="social">
+        <div>
+          <a target="_blank" href="https://www.facebook.com/phunghoang1527/">
+            <i class="fab fa-facebook fa-1x"></i>
+            Facebook
+          </a>
+          <a id="profile-link" target="_blank" href="https://github.com/PhungHoang1909">
+            <i class="fab fa-github fa-1x"></i>
+            Github
+          </a>
+          <a target="_blank" href="https://twitter.com/reolz1527">
+            <i class="fab fa-twitter fa-1x"></i>
+            Twitter
+          </a>
+          <a href="#">
+            <i class="fas fa-envelope-open-text fa-1x"></i>
+            Mail
+          </a>
+          <a href="#">
+            <i class="fas fa-phone fa-1x"></i>
+            Call Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer id="main-footer">
+    <div class="container">
+      <p>&copy; Copyright Free</p>
+      <!-- <p id="creator">This site recreated by <a href="https://github.com/FreeCodeCamp-Solutions/">FreeCodeCamp-Solutions</a></p> -->
+    </div>
+  </footer>
+</body>
+</html>

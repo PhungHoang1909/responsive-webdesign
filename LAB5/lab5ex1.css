@@ -1,0 +1,26 @@
+body {
+    background-color:  #EEEEEE;
+    font-family: Sans-serif;
+    font-size: 16px;
+}
+button {
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 12px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+.radiobut {
+    Height: 20px;
+    width: 20px;
+    background-color: #428BCA;
+    font-family: Sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
